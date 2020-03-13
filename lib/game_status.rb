@@ -15,6 +15,7 @@ def won?(board)
 
   WIN_COMBINATIONS.each do |combos|
 puts board[0]
+
     if board[0] && board[1] && board[2] == "X"
       return combos
     elsif board[0] && board[1] && board[2]  == "O"
