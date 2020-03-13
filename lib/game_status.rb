@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
 def won?(board)
 
   WIN_COMBINATIONS.each do |combos|
-puts board[0]
+puts board[combos[0]]
 puts board[1]
 puts board[2]
 
