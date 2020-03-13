@@ -14,9 +14,10 @@ WIN_COMBINATIONS = [
 def won?(board)
 
   WIN_COMBINATIONS.each do |combos|
-puts board[combos[0]]
-puts board[combos[1]]
-puts board[combos[2]]
+    binding.pry
+# puts board[combos[0]]
+# puts board[combos[1]]
+# puts board[combos[2]]
 
     if board[0] && board[1] && board[2] == "X"
       return combos
