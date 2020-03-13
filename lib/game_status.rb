@@ -17,7 +17,7 @@ def won?(board)
 puts board
     if board[0] && board[1] && board[2] == "X"
       return false
-    elsif combos[0] && combos[1] && combos[2]  == "O"
+    elsif board[0] && board[1] && board[2]  == "O"
       return combos
     else
       return false
