@@ -19,7 +19,7 @@ def won?(board)
 # puts board[combos[1]]
 # puts board[combos[2]]
 
-    if board[0] && board[1] && board[2] == "X"
+    if board[0] == "X" && board[1] && board[2] == "X"
       return combos
     elsif board[0] && board[1] && board[2]  == "O"
       return combos
